@@ -5,7 +5,7 @@ This git repository helps you get up and running quickly w/ a Django installatio
 on OpenShift.  The Django project name used in this repo is 'osqa'
 but you can feel free to change it. 
 
-Running on OpenShift
+Create the app on OpenShift
 ----------------------------
 
 Create an account at http://openshift.redhat.com/ , don't forget to create a namespace and install client tools as well. And ensure you have 'django', 'mysql', 'mysql-devel', 'mysql-python' installed on your local machine.
@@ -25,6 +25,9 @@ Add mysql database support for you app
     rhc app cartridge add -a osqa -c mysql-5.1
 
 You will get some useful information from the output.
+
+Make a little update and RUN!
+----------------------------
 
 Update the "wsgi/osqa/settings_local.py" config file with the information you just got
 
