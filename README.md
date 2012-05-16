@@ -1,9 +1,7 @@
 Your own OSQA on OpenShift
 ============================
 
-This git repository helps you get up and running quickly w/ a Django installation
-on OpenShift.  The Django project name used in this repo is 'osqa'
-but you can feel free to change it. 
+This git repository helps you get up and running quickly w/ a Django installation on OpenShift.  The Django project name used in this repo is 'osqa' but feel free to change it. 
 
 Create the app on OpenShift
 ----------------------------
@@ -62,6 +60,6 @@ That's it, you can now checkout your application at:
 
     http://osqa-$yournamespace.rhcloud.com
 
-Here goes mine OSQA:
+Here goes mine:
 
     http://osqa-linqing.rhcloud.com/
