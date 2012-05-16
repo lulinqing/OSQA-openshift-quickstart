@@ -1,8 +1,8 @@
-Django on OpenShift Express
+Django on OpenShift
 ============================
 
 This git repository helps you get up and running quickly w/ a Django installation
-on OpenShift Express.  The Django project name used in this repo is 'osqa'
+on OpenShift.  The Django project name used in this repo is 'osqa'
 but you can feel free to change it. 
 
 Running on OpenShift
