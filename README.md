@@ -62,3 +62,6 @@ That's it, you can now checkout your application at:
 
     http://osqa-$yournamespace.rhcloud.com
 
+Here goes mine OSQA:
+
+    http://osqa-linqing.rhcloud.com/
