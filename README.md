@@ -3,21 +3,7 @@ Django on OpenShift Express
 
 This git repository helps you get up and running quickly w/ a Django installation
 on OpenShift Express.  The Django project name used in this repo is 'osqa'
-but you can feel free to change it.  Right now the backend is sqlite3 and the
-database runtime is @ $OPENSHIFT_DATA_DIR/sqlite3.db.
-
-When you push this application up for the first time, the sqlite database is
-copied from wsgi/osqa/sqlite3.db.  This is the stock database that is created
-when 'python manage.py syncdb' is run with only the admin app installed.
-
-You can delete the database from your git repo after the first push (you probably
-should for security).  On subsequent pushes, a 'python manage.py syncdb' is
-executed to make sure that any models you added are created in the DB.  If you
-do anything that requires an alter table, you could add the alter statements
-in GIT_ROOT/.openshift/action_hooks/alter.sql and then use
-GIT_ROOT/.openshift/action_hooks/deploy to execute that script (make sure to
-back up your database w/ rhc-snapshot first :) )
-
+but you can feel free to change it. 
 
 Running on OpenShift
 ----------------------------
