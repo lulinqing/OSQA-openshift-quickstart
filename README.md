@@ -1,4 +1,4 @@
-Django on OpenShift
+Your own OSQA on OpenShift
 ============================
 
 This git repository helps you get up and running quickly w/ a Django installation
