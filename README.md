@@ -15,7 +15,7 @@ Create a python application
 Add this upstream seambooking repo
 
     cd osqa
-    git remote add upstream -m master git://github.com/lulinqing/OSQA-mysql.git
+    git remote add upstream -m master git://github.com/lulinqing/OSQA-openshift-quickstart.git
     git pull -s recursive -X theirs upstream master
 
 Add mysql database support for you app
